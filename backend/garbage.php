@@ -1,5 +1,7 @@
 <?php
-
+ header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: GET, POST');
+    header('Access-Control-Allow-Headers: Content-Encoding, Content-Type');
 // Disable Compression
 @ini_set('zlib.output_compression', 'Off');
 @ini_set('output_buffering', 'Off');

@@ -1,5 +1,7 @@
 <?php
-
+ header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header('Access-Control-Allow-Headers: Content-Encoding, Content-Type');
 header('HTTP/1.1 200 OK');
 
 if (isset($_GET['cors'])) {
